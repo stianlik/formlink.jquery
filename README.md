@@ -27,7 +27,7 @@ field in a password recovery form when user clicks "Forgotten your password?".
 
 ```RHTML
 <input id="LoginForm_username" name="LoginForm[username]" />
-<a href="passwordRecovery.php" data-formlink="#LoginForm_username" data-replacements="{'LoginForm': 'PasswordRecoveryForm'}">Forgotten your password?</a>
+<a href="passwordRecovery.php" data-formlink="#LoginForm_username" data-replacements='{"LoginForm": "PasswordRecoveryForm"}'>Forgotten your password?</a>
 ```
 
 When link is clicked, the following url is opened `passwordRecovery.php?PasswordRecoveryForm[username]=VALUE_FROM_USERNAME_FIELD`.
