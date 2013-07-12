@@ -1,0 +1,20 @@
+{
+	"name": "formlink",
+	"version": "0.1.0",
+	"title": "Form Link",
+	"author": {
+		"name": "Stian Liknes",
+		"email": "stianlik@gmail.com",
+		"url": "http://foogile.com"
+	},
+	"licenses": [
+		{
+			"type": "GPLv2",
+			"url": "http://opensource.org/licenses/GPL-2.0"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.8"
+	},
+	"docs": "https://github.com/stianlik/jquery.formlink"
+}

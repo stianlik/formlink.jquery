@@ -1,4 +1,4 @@
-jquery.formlink
+formlink.jquery
 ===============
 
 jQuery plugin for binding form attributes to links
@@ -23,8 +23,8 @@ of the input name used when link is clicked.
 ### Example 1: Append submitted username to password recovery form
 
 ```RHTML
-	<input id="LoginForm_username" name="LoginForm[username]" />
-	<a href="passwordRecovery.php" data-formlink="#LoginForm_username" data-replacements="{'LoginForm': 'PasswordRecoveryForm'}">Forgotten your password?</a>
+<input id="LoginForm_username" name="LoginForm[username]" />
+<a href="passwordRecovery.php" data-formlink="#LoginForm_username" data-replacements="{'LoginForm': 'PasswordRecoveryForm'}">Forgotten your password?</a>
 ```
 
 When link is clicked, the following url is opened `passwordRecovery.php?PasswordRecoveryForm[username]`.
