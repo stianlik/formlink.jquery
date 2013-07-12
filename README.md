@@ -1,4 +1,4 @@
-formlink.jquery
+Form Link
 ===============
 
 jQuery plugin for binding form attributes to links
