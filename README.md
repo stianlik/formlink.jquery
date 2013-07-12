@@ -12,7 +12,7 @@ part of the input field in links target url.
 
 As an alternative to step 2 and 3, you can use the following javascript
 	
-```javascript
+```JavaScript
 $(target).formlink(replacements);
 ```
 
@@ -22,7 +22,7 @@ of the input name used when link is clicked.
 
 ### Example 1: Append submitted username to password recovery form
 
-```HTML
+```RHTML
 	<input id="LoginForm_username" name="LoginForm[username]" />
 	<a href="passwordRecovery.php" data-formlink="#LoginForm_username" data-replacements="{'LoginForm': 'PasswordRecoveryForm'}">Forgotten your password?</a>
 ```
