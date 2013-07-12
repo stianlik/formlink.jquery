@@ -20,7 +20,10 @@ Target should be a jQuery selector for input elements and the optional
 replacements parameter should be an dictionary used to replace parts
 of the input name used when link is clicked.
 
-### Example 1: Append submitted username to password recovery form
+### Example 1
+
+The following code can be used if you want to auto-fill the username
+field in a password recovery form when user clicks "Forgotten your password?".
 
 ```RHTML
 <input id="LoginForm_username" name="LoginForm[username]" />
