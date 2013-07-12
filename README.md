@@ -27,5 +27,5 @@ of the input name used when link is clicked.
 <a href="passwordRecovery.php" data-formlink="#LoginForm_username" data-replacements="{'LoginForm': 'PasswordRecoveryForm'}">Forgotten your password?</a>
 ```
 
-When link is clicked, the following url is opened `passwordRecovery.php?PasswordRecoveryForm[username]`.
+When link is clicked, the following url is opened `passwordRecovery.php?PasswordRecoveryForm[username]=VALUE_FROM_USERNAME_FIELD`.
 
